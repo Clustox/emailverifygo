@@ -64,7 +64,7 @@ func Getenv(key, fallback string) string {
 // Global variables
 var (
 	// URI used to make requests to the EmailVerify API
-	URI = Getenv(`EMAIL_VERIFY_URI`, `http://localhost:3000`)
+	URI = Getenv(`EMAIL_VERIFY_URI`, `https://app.emailverify.io`)
 
 	// API_KEY the API key used in order to make the requests
 	API_KEY string = os.Getenv("EMAIL_VERIFY_API_KEY")
